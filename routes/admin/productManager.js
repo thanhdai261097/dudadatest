@@ -69,9 +69,10 @@ var test;
              status:20
            });
            db.close();
-        });
          test = null;
          nameimg = null;
+        });
+
 
       }
 
