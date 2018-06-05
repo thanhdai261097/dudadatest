@@ -10,8 +10,8 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-//const PORT = process.env.PORT || 80;
-const PORT = 1337;
+const PORT = process.env.PORT || 80;
+//const PORT = 1337;
 var session;
 
 var mongodb = require('mongodb');
