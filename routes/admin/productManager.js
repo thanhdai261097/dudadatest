@@ -70,6 +70,13 @@ var test;
              status:20
            });
            db.close();
+<<<<<<< HEAD
+=======
+         test = null;
+         nameimg = null;
+        });
+
+>>>>>>> 9821cafed9401d6d66a3cf571a68fae0de3ed8a3
 
         });
         test = null;
@@ -164,13 +171,15 @@ router.post('/admin/addimage', isAdminLoggedin, function(req,res){
   upload(req,res,function(err){
     if(err){
       console.log("Something went wrong!!!");
+      res.redirect('/admin/addproduct');
     }
     else
     {
       console.log("File uploaded successfully!");
+      res.redirect('/admin/addproduct');
     }
   });
-  res.redirect('/admin/addproduct');
+  
 });
 
 router.get('/admin/addproductFail', isAdminLoggedin, function(req,res){
