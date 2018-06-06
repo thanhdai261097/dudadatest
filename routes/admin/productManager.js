@@ -71,10 +71,17 @@ var test;
            });
            db.close();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
          test = null;
          nameimg = null;
         });
+=======
+         test = null;
+         nameimg = null;
+        });
+
+>>>>>>> 9821cafed9401d6d66a3cf571a68fae0de3ed8a3
 
 >>>>>>> 9821cafed9401d6d66a3cf571a68fae0de3ed8a3
 
